@@ -11,7 +11,6 @@
             padding: 0;
             background: linear-gradient(to bottom, #e8f5e9, #ffffff);
         }
-
         header {
             background-color: #43A047;
             color: white;
@@ -22,12 +21,10 @@
             z-index: 1000;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
-
         header h1 {
             font-size: 28px;
             margin: 0;
         }
-
         header .language-toggle {
             background-color: white;
             color: #43A047;
@@ -38,37 +35,33 @@
             font-size: 14px;
             transition: background-color 0.3s, color 0.3s;
         }
-
         header .language-toggle:hover {
             background-color: #2E7D32;
             color: white;
         }
-
         nav {
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
             padding: 10px 20px;
             background-color: #66BB6A;
         }
-
         nav a {
             text-decoration: none;
             color: white;
-            padding: 10px 15px;
+            padding: 10px 20px;
+            margin: 0 10px;
             border-radius: 5px;
+            font-weight: bold;
             transition: background-color 0.3s;
         }
-
         nav a:hover {
             background-color: #43A047;
         }
-
         .guide-container {
             max-width: 90%;
             margin: 30px auto;
         }
-
         .guide-item {
             background: white;
             border-radius: 10px;
@@ -76,17 +69,14 @@
             margin-bottom: 20px;
             padding: 20px;
         }
-
         .guide-item h2 {
             color: #43A047;
             font-size: 24px;
         }
-
         .guide-item p {
             font-size: 16px;
             color: #555;
         }
-
         footer {
             text-align: center;
             padding: 20px;
@@ -94,66 +84,68 @@
             color: white;
             margin-top: 20px;
         }
+        .guide{
+            background-color: #43A047;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Farmer's Hub - Farming Guide</h1>
-        <button class="language-toggle">Switch to Tamil</button>
+        <h1 id="title">Farmer's Hub - Farming Guide</h1>
+        <button class="language-toggle" id="languageToggle" onclick="switchLanguage()">ஆங்கிலத்திற்கு மாறவும்</button>
     </header>
-
     <nav>
-        <a href="home.html">Home</a>
-        <a href="news.html">News</a>
-        <a href="schemes.html">Schemes</a>
-        <a href="guides.html">Guide</a>
+        <a href="/src/home.html" id="homeLink">Home</a>
+        <a href="/src/news.html" id="newsLink">News</a>
+        <a href="/src/scheme.html" id="schemeLink">Schemes</a>
+        <a href="/src/guide.html" id="guideLink" class="guide">Guide</a>
     </nav>
-
     <div class="guide-container">
         <div class="guide-item">
-            <img src = "farm.jpeg">
-            <h2>Step 1: Soil Preparation</h2>
-            <p>Test the soil for nutrient content and pH levels. Remove weeds and debris. Add organic compost or fertilizers to enrich the soil and maintain its fertility.</p>
+            <h2 id="step1Title">Step 1: Soil Preparation</h2>
+            <p id="step1Desc">Test the soil for nutrient content and pH levels. Remove weeds and debris. Add organic compost or fertilizers to enrich the soil and maintain its fertility.</p>
         </div>
 
         <div class="guide-item">
-            <h2>Step 2: Seed Selection</h2>
-            <p>Choose high-quality seeds suitable for your region and crop type. Opt for disease-resistant varieties to ensure better yield.</p>
+            <h2 id="step2Title">Step 2: Seed Selection</h2>
+            <p id="step2Desc">Choose high-quality seeds suitable for your region and crop type. Opt for disease-resistant varieties to ensure better yield.</p>
         </div>
 
         <div class="guide-item">
-            <h2>Step 3: Sowing</h2>
-            <p>Plant seeds at the right depth and spacing. Follow recommended practices for the specific crop to maximize germination and growth.</p>
+            <h2 id="step3Title">Step 3: Sowing</h2>
+            <p id="step3Desc">Plant seeds at the right depth and spacing. Follow recommended practices for the specific crop to maximize germination and growth.</p>
         </div>
 
         <div class="guide-item">
-            <h2>Step 4: Irrigation</h2>
-            <p>Ensure timely and adequate watering. Use efficient methods like drip or sprinkler irrigation to save water and provide consistent moisture.</p>
+            <h2 id="step4Title">Step 4: Irrigation</h2>
+            <p id="step4Desc">Ensure timely and adequate watering. Use efficient methods like drip or sprinkler irrigation to save water and provide consistent moisture.</p>
         </div>
 
         <div class="guide-item">
-            <h2>Step 5: Pest and Weed Management</h2>
-            <p>Use natural pesticides and herbicides to control pests and weeds. Regularly inspect crops for signs of infestation or disease.</p>
+            <h2 id="step5Title">Step 5: Pest and Weed Management</h2>
+            <p id="step5Desc">Use natural pesticides and herbicides to control pests and weeds. Regularly inspect crops for signs of infestation or disease.</p>
         </div>
 
         <div class="guide-item">
-            <h2>Step 6: Fertilization</h2>
-            <p>Apply fertilizers based on soil test results. Follow recommended schedules and avoid over-fertilization to prevent soil degradation.</p>
+            <h2 id="step6Title">Step 6: Fertilization</h2>
+            <p id="step6Desc">Apply fertilizers based on soil test results. Follow recommended schedules and avoid over-fertilization to prevent soil degradation.</p>
         </div>
 
         <div class="guide-item">
-            <h2>Step 7: Harvesting</h2>
-            <p>Harvest crops at the right maturity stage. Use proper tools and techniques to minimize damage and loss during harvesting.</p>
+            <h2 id="step7Title">Step 7: Harvesting</h2>
+            <p id="step7Desc">Harvest crops at the right maturity stage. Use proper tools and techniques to minimize damage and loss during harvesting.</p>
         </div>
 
         <div class="guide-item">
-            <h2>Step 8: Post-Harvest Management</h2>
-            <p>Store harvested produce in clean and dry conditions. Use appropriate packaging to maintain freshness and quality during transportation.</p>
+            <h2 id="step8Title">Step 8: Post-Harvest Management</h2>
+            <p id="step8Desc">Store harvested produce in clean and dry conditions. Use appropriate packaging to maintain freshness and quality during transportation.</p>
         </div>
     </div>
 
     <footer>
-        <p>&copy; 2025 Farmer's Hub. All rights reserved.</p>
+        <p id="footerText">&copy; 2025 Farmer's Hub. All rights reserved.</p>
     </footer>
+    <script src="/translate/guideLang.js"></script>
 </body>
 </html>
+

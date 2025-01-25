@@ -11,7 +11,6 @@
             padding: 0;
             background: linear-gradient(to bottom, #e3f2fd, #ffffff);
         }
-
         header {
             background-color: #2196F3;
             color: white;
@@ -22,12 +21,10 @@
             z-index: 1000;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
-
         header h1 {
             font-size: 28px;
             margin: 0;
         }
-
         header .language-toggle {
             background-color: white;
             color: #2196F3;
@@ -38,28 +35,26 @@
             font-size: 14px;
             transition: background-color 0.3s, color 0.3s;
         }
-
         header .language-toggle:hover {
             background-color: #1976D2;
             color: white;
         }
-
         nav {
             display: flex;
-            justify-content: space-around;
+            justify-content: center;
             align-items: center;
             padding: 10px 20px;
             background-color: #64B5F6;
         }
-
         nav a {
             text-decoration: none;
             color: white;
-            padding: 10px 15px;
+            padding: 10px 20px;
+            margin: 0 10px;
             border-radius: 5px;
+            font-weight: bold;
             transition: background-color 0.3s;
         }
-
         nav a:hover {
             background-color: #2196F3;
         }
@@ -68,7 +63,6 @@
             max-width: 90%;
             margin: 30px auto;
         }
-
         .news-item {
             background: white;
             border-radius: 10px;
@@ -81,12 +75,10 @@
             color: #2196F3;
             font-size: 24px;
         }
-
         .news-item p {
             font-size: 16px;
             color: #555;
         }
-
         footer {
             text-align: center;
             padding: 20px;
@@ -94,40 +86,56 @@
             color: white;
             margin-top: 20px;
         }
+        .news-container a {
+            text-decoration: none;
+            color: black;
+        }
+        .news-container a:hover{
+            text-decoration: underline;
+        }
+        .news-container:hover{
+            cursor: pointer;
+        }
+        .news{
+            background-color: #1976D2;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Farmer's Hub - News</h1>
-        <button class="language-toggle">Switch to Tamil</button>
+        <h1 id="title">Farmer's Hub - News</h1>
+        <button class="language-toggle" id="languageToggle">ஆங்கிலத்திற்கு மாறவும்</button>
     </header>
-
     <nav>
-        <a href="home.html">Home</a>
-        <a href="news.html">News</a>
-        <a href="scheme.html">Schemes</a>
-        <a href="guide.html">Guide</a>
+        <a href="/src/home.html" id="navHome">Home</a>
+        <a href="/src/news.html" id="navNews" class="news">News</a>
+        <a href="/src//scheme.html" id="navSchemes">Schemes</a>
+        <a href="/src/guide.html" id="navGuide">Guide</a>
     </nav>
 
     <div class="news-container">
-        <div class="news-item">
-            <h2>New Subsidy Announced for Organic Farming</h2>
-            <p>The government has introduced a new subsidy scheme to encourage organic farming practices, providing financial assistance for farmers adopting sustainable methods.</p>
-        </div>
-
-        <div class="news-item">
-            <h2>National Agriculture Expo 2025</h2>
-            <p>The National Agriculture Expo is scheduled to take place in Chennai on February 15th, featuring the latest technologies and innovations in agriculture.</p>
-        </div>
-
-        <div class="news-item">
-            <h2>Farmer Ramesh's Success Story</h2>
-            <p>Ramesh, a farmer from Tamil Nadu, has successfully doubled his crop yield using innovative irrigation techniques. Learn more about his journey.</p>
-        </div>
+        <a href="/newsLinks/OrganicFarming.html">
+            <div class="news-item">
+                <h2 id="news1Title">New Subsidy Announced for Organic Farming</h2>
+                <p id="news1Content">The government has introduced a new subsidy scheme to encourage organic farming practices, providing financial assistance for farmers adopting sustainable methods.</p>
+            </div>
+        </a>
+        <a href="/newsLinks/AgricultureExpo.html">
+            <div class="news-item">
+                <h2 id="news2Title">National Agriculture Expo 2025</h2>
+                <p id="news2Content">The National Agriculture Expo is scheduled to take place in Chennai on February 15th, featuring the latest technologies and innovations in agriculture.</p>
+            </div>
+        </a>
+        <a href="/newsLinks/SuccessStory.html">
+            <div class="news-item">
+                <h2 id="news3Title">Farmer Ramesh's Success Story</h2>
+                <p id="news3Content">Ramesh, a farmer from Tamil Nadu, has successfully doubled his crop yield using innovative irrigation techniques. Learn more about his journey.</p>
+            </div>
+        </a>
     </div>
-
     <footer>
-        <p>&copy; 2025 Farmer's Hub. All rights reserved.</p>
+        <p id="footerText">&copy; 2025 Farmer's Hub. All rights reserved.</p>
     </footer>
+    <script src="/translate/newsLang.js"></script>
 </body>
 </html>
