@@ -9,7 +9,10 @@
             font-family: 'Roboto', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+            background: linear-gradient(to bottom, #f1f8e9, #ffffff);
+            background-image: url("/assets/blue.jpg");
+            background-size: cover;
+            background-position: center;
         }
         header {
             background-color: #2196F3;
@@ -64,20 +67,22 @@
             margin: 30px auto;
         }
         .news-item {
-            background: white;
+            background: rgba(255, 255, 255, 0.128);
             border-radius: 10px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
             margin-bottom: 20px;
             padding: 20px;
+            backdrop-filter: blur(16px); /* Apply the blur effect */
+            -webkit-backdrop-filter: blur(16px); /* For Safari support */
         }
-
         .news-item h2 {
-            color: #2196F3;
+            color: #333;
             font-size: 24px;
         }
         .news-item p {
             font-size: 16px;
             color: #555;
+            font-weight: 500;
         }
         footer {
             text-align: center;
@@ -112,7 +117,6 @@
         <a href="/src//scheme.html" id="navSchemes">Schemes</a>
         <a href="/src/guide.html" id="navGuide">Guide</a>
     </nav>
-
     <div class="news-container">
         <a href="/newsLinks/OrganicFarming.html">
             <div class="news-item">
