@@ -11,7 +11,6 @@
             padding: 0;
             background: linear-gradient(to bottom, #f0f4c3, #ffffff);
         }
-
         header {
             background-color: #558b2f;
             color: white;
@@ -22,12 +21,10 @@
             z-index: 1000;
             box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
         }
-
         header h1 {
             font-size: 28px;
             margin: 0;
         }
-
         header .language-toggle {
             background-color: white;
             color: #558b2f;
@@ -38,12 +35,10 @@
             font-size: 14px;
             transition: background-color 0.3s, color 0.3s;
         }
-
         header .language-toggle:hover {
             background-color: #33691e;
             color: white;
         }
-
         nav {
             display: flex;
             justify-content: center;
@@ -51,7 +46,6 @@
             padding: 10px 20px;
             background-color: #8bc34a;
         }
-
         nav a {
             text-decoration: none;
             color: white;
@@ -61,28 +55,23 @@
             font-weight: bold;
             transition: background-color 0.3s;
         }
-
         nav a:hover {
             background-color: #558b2f;
         }
-
         .welcome-section {
             text-align: center;
             padding: 50px 20px;
             background: linear-gradient(to right, #aed581, #7cb342);
             color: white;
         }
-
         .welcome-section h2 {
             font-size: 36px;
             margin-bottom: 15px;
         }
-
         .welcome-section p {
             font-size: 18px;
             line-height: 1.6;
         }
-
         .features {
             display: flex;
             flex-wrap: wrap;
@@ -92,27 +81,25 @@
             padding: 20px;
             max-width: 90%;
         }
-
         .feature-card {
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
             padding: 20px;
             text-align: center;
             width: 300px;
+            background: rgba(255, 255, 255, 0.128);
+            border-radius: 10px;
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(16px); /* Apply the blur effect */
+            -webkit-backdrop-filter: blur(16px); /* For Safari support */
         }
-
         .feature-card h3 {
             color: #558b2f;
             font-size: 22px;
         }
-
         .feature-card p {
             font-size: 16px;
             color: #555;
             margin-bottom: 15px;
         }
-
         .feature-card a {
             display: inline-block;
             padding: 10px 20px;
@@ -123,11 +110,9 @@
             font-weight: bold;
             transition: background-color 0.3s;
         }
-
         .feature-card a:hover {
             background: #33691e;
         }
-
         footer {
             text-align: center;
             padding: 20px;
@@ -138,6 +123,7 @@
         .home{
             background-color: #558b2f;
         }
+        
     </style>
 </head>
 <body>
@@ -145,37 +131,37 @@
         <h1 id="title">Welcome to Farmer's Hub</h1>
         <button class="language-toggle" id="languageToggle" onclick="switchLanguage()">ஆங்கிலத்திற்கு மாறவும்</button>
     </header>
-
     <nav>
         <a href="/src/portal.html" id="homeLink" class="home">Home</a>
         <a href="/src/news.html" id="newsLink">News</a>
         <a href="/src/scheme.html" id="schemeLink">Schemes</a>
         <a href="/src/guide.html" id="guideLink">Guide</a>
     </nav>
-
-    <section class="welcome-section">
-        <h2 id="welcomeTitle">Empowering Tamil Nadu Farmers</h2>
-        <p id="welcomeDesc">
-            Farmer's Hub is dedicated to supporting the agricultural community by providing timely news, government schemes, 
-            and expert guides to enhance productivity and sustainability in farming.
-        </p>
-    </section>
-    <section class="features">
-        <div class="feature-card">
-            <h3 id="feature1Title">Stay Updated</h3>
-            <p id="feature1Desc">Access the latest news and updates relevant to farmers in Tamil Nadu.</p>
-            <a href="news.html" id="feature1Link">Explore News</a>
-        </div>
-        <div class="feature-card">
-            <h3 id="feature2Title">Government Schemes</h3>
-            <p id="feature2Desc">Learn about government initiatives and subsidies designed to benefit farmers.</p>
-            <a href="schemes.html" id="feature2Link">View Schemes</a>
-        </div>
-        <div class="feature-card">
-            <h3 id="feature3Title">Farming Guides</h3>
-            <p id="feature3Desc">Step-by-step guides to help you with planting, harvesting, and farm health management.</p>
-            <a href="guides.html" id="feature3Link">Read Guide</a>
-        </div>
+    <section class="main_section">
+        <section class="welcome-section">
+            <h2 id="welcomeTitle">Empowering Tamil Nadu Farmers</h2>
+            <p id="welcomeDesc">
+                Farmer's Hub is dedicated to supporting the agricultural community by providing timely news, government schemes, 
+                and expert guides to enhance productivity and sustainability in farming.
+            </p>
+        </section>
+        <section class="features">
+            <div class="feature-card">
+                <h3 id="feature1Title">Stay Updated</h3>
+                <p id="feature1Desc">Access the latest news and updates relevant to farmers in Tamil Nadu.</p>
+                <a href="news.html" id="feature1Link">Explore News</a>
+            </div>
+            <div class="feature-card">
+                <h3 id="feature2Title">Government Schemes</h3>
+                <p id="feature2Desc">Learn about government initiatives and subsidies designed to benefit farmers.</p>
+                <a href="schemes.html" id="feature2Link">View Schemes</a>
+            </div>
+            <div class="feature-card">
+                <h3 id="feature3Title">Farming Guides</h3>
+                <p id="feature3Desc">Step-by-step guides to help you with planting, harvesting, and farm health management.</p>
+                <a href="guides.html" id="feature3Link">Read Guide</a>
+            </div>
+        </section>
     </section>
 
     <footer>
