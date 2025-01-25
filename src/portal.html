@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             font-family: 'Roboto', Arial, sans-serif;
-            background: url('https://sl.bing.net/fYzn8iMUDeK') no-repeat center center/cover;
+            background: url('https://cdn.pixabay.com/photo/2016/11/29/03/53/agriculture-1866559_1280.jpg') no-repeat center center/cover;
             height: 100vh;
             display: flex;
             justify-content: center;
@@ -17,7 +17,6 @@
             color: white;
             text-align: center;
         }
-
         .welcome-container {
             background: rgba(0, 0, 0, 0.6);
             padding: 30px;
@@ -25,15 +24,8 @@
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
         }
 
-        .welcome-container img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 15px;
-            margin-bottom: 20px;
-        }
-
         .welcome-container h1 {
-            font-size: 48px;
+            font-size: 48px; 
             margin-bottom: 20px;
         }
 
@@ -57,7 +49,6 @@
             font-size: 16px;
             transition: background-color 0.3s;
         }
-
         .redirect-links a:hover {
             background: #33691e;
         }
@@ -65,12 +56,11 @@
 </head>
 <body>
     <div class="welcome-container">
-        <img src="./farm.jpeg" alt="Welcome to Farmer's Hub">
         <h1>Welcome to Farmer's Hub</h1>
         <p>Your trusted companion for all things farming. Explore news, schemes, and guides tailored for Tamil Nadu farmers.</p>
         <div class="redirect-links">
-            <a href="home.html">Enter Portal</a>
-            <a href="about.html">About Us</a>
+            <a href="/src/home.html">Enter Portal</a>
+            <a href="/src/about_us.html">About Us</a>
         </div>
     </div>
 </body>
