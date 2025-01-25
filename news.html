@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer's Hub - News</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #e3f2fd, #ffffff);
+        }
+
+        header {
+            background-color: #2196F3;
+            color: white;
+            text-align: center;
+            padding: 20px 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin: 0;
+        }
+
+        header .language-toggle {
+            background-color: white;
+            color: #2196F3;
+            border: 1px solid #2196F3;
+            padding: 5px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        header .language-toggle:hover {
+            background-color: #1976D2;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #64B5F6;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #2196F3;
+        }
+
+        .news-container {
+            max-width: 90%;
+            margin: 30px auto;
+        }
+
+        .news-item {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+
+        .news-item h2 {
+            color: #2196F3;
+            font-size: 24px;
+        }
+
+        .news-item p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2196F3;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Farmer's Hub - News</h1>
+        <button class="language-toggle">Switch to Tamil</button>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="scheme.html">Schemes</a>
+        <a href="guide.html">Guide</a>
+    </nav>
+
+    <div class="news-container">
+        <div class="news-item">
+            <h2>New Subsidy Announced for Organic Farming</h2>
+            <p>The government has introduced a new subsidy scheme to encourage organic farming practices, providing financial assistance for farmers adopting sustainable methods.</p>
+        </div>
+
+        <div class="news-item">
+            <h2>National Agriculture Expo 2025</h2>
+            <p>The National Agriculture Expo is scheduled to take place in Chennai on February 15th, featuring the latest technologies and innovations in agriculture.</p>
+        </div>
+
+        <div class="news-item">
+            <h2>Farmer Ramesh's Success Story</h2>
+            <p>Ramesh, a farmer from Tamil Nadu, has successfully doubled his crop yield using innovative irrigation techniques. Learn more about his journey.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Farmer's Hub. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmer's Hub - Home</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #f0f4c3, #ffffff);
+        }
+
+        header {
+            background-color: #558b2f;
+            color: white;
+            text-align: center;
+            padding: 15px 10px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin: 0;
+        }
+
+        header .language-toggle {
+            background-color: white;
+            color: #558b2f;
+            border: 1px solid #558b2f;
+            padding: 5px 15px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        header .language-toggle:hover {
+            background-color: #33691e;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #8bc34a;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #558b2f;
+        }
+
+        .welcome-section {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(to right, #aed581, #7cb342);
+            color: white;
+        }
+
+        .welcome-section h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .welcome-section p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        .features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin: 40px auto;
+            padding: 20px;
+            max-width: 90%;
+        }
+
+        .feature-card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+            width: 300px;
+        }
+
+        .feature-card h3 {
+            color: #558b2f;
+            font-size: 22px;
+        }
+
+        .feature-card p {
+            font-size: 16px;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        .feature-card a {
+            display: inline-block;
+            padding: 10px 20px;
+            color: white;
+            background: #558b2f;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        .feature-card a:hover {
+            background: #33691e;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #558b2f;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Farmer's Hub</h1>
+        <button class="language-toggle">Switch to Tamil</button>
+    </header>
+
+    <nav>
+        <a href="portal.html">Home</a>
+        <a href="news.html">News</a>
+        <a href="scheme.html">Schemes</a>
+        <a href="guide.html">Guide</a>
+    </nav>
+
+    <section class="welcome-section">
+        <h2>Empowering Tamil Nadu Farmers</h2>
+        <p>
+            Farmer's Hub is dedicated to supporting the agricultural community by providing timely news, government schemes, 
+            and expert guides to enhance productivity and sustainability in farming.
+        </p>
+    </section>
+
+    <section class="features">
+        <div class="feature-card">
+            <h3>Stay Updated</h3>
+            <p>Access the latest news and updates relevant to farmers in Tamil Nadu.</p>
+            <a href="news.html">Explore News</a>
+        </div>
+        <div class="feature-card">
+            <h3>Government Schemes</h3>
+            <p>Learn about government initiatives and subsidies designed to benefit farmers.</p>
+            <a href="schemes.html">View Schemes</a>
+        </div>
+        <div class="feature-card">
+            <h3>Farming Guides</h3>
+            <p>Step-by-step guides to help you with planting, harvesting, and farm health management.</p>
+            <a href="guides.html">Read Guide</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Farmer's Hub. Empowering Farmers, Building Futures.</p>
+    </footer>
+</body>
+</html>
