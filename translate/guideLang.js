@@ -47,7 +47,7 @@ const taContent = {
   step8Title: "படம் 8: அறுவடை பின்னர் மேலாண்மை",
   step8Desc: "அறுவடை செய்யப்பட்ட உற்பத்தி சுத்தமான மற்றும் உலர்ந்த நிலைகளில் சேமிக்கவும். போக்குவரத்துக்கான மேம்பட்ட மற்றும் தரமான பேக்கேஜிங் பயன்படுத்தவும்.",
   footerText: "&copy; 2025 கவனத்தைத் திருப்புங்கள். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
-  buttonText: "Switch to Tamil",
+  buttonText: "Switch to English",
 };
 
 function switchLanguage() {

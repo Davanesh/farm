@@ -70,7 +70,7 @@ const translations = {
     news7Title: " நிபுணர் கருத்துக்கள் மற்றும் ஆலோசனை",
     news7Content: "உங்கள் பண்ணையை மேம்படுத்த தொழில்முறை நுண்ணறிவுகளைப் பெறுங்கள்",
     footerText: "&copy; 2025 மண் மித்ரா. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
-    buttonText: "Switch to Tamil",
+    buttonText: "Switch to English",
     introText: "விவசாயம் ஒரு அதிநவீன துறை...",
     nationalNewsTitle: "தேசிய விவசாய செய்திகள்:",
     budgetNews: "விவசாயத்திற்கு பட்ஜெட் அதிகரிப்பு...",

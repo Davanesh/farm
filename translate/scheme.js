@@ -31,7 +31,7 @@ const taContent = {
   scheme4Title: "மண் ஆரோக்கிய அட்டை திட்டம்",
   scheme4Desc: "இந்த திட்டம் விவசாயிகளுக்கு மண் ஆரோக்கிய அட்டைகள் வழங்குகிறது, மண் ஊட்டச்சத்து நிலையை அறிவித்து தரமான விவசாய நடவடிக்கைகளுக்கான பரிந்துரைகளை வழங்குகிறது.",
   footerText: "&copy; 2025 கவனத்தைத் திருப்புங்கள். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
-  buttonText: "Switch to Tamil",
+  buttonText: "Switch to English",
 };
 
 function switchLanguage() {
