@@ -81,7 +81,7 @@
         }
         .news-item p {
             font-size: 16px;
-            color: #555;
+            color: #444;
             font-weight: 500;
         }
         footer {
@@ -104,6 +104,33 @@
         .news{
             background-color: #1976D2;
         }
+        .hidden {
+            display: none;
+            text-indent: 60px;
+        }
+        .read-more-link {
+            color: blue;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .read-more-link a p {
+            color: #333;
+            font-weight: 400;
+        }
+        #newsMoreContent {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out;
+        }
+
+        .news-item:hover #newsMoreContent {
+            max-height: 500px;
+            transition: max-height 0.5s ease-in-out;
+        }
+        .hidden-content p {
+            text-indent: 70px;
+            font-size: 17px;
+        }
     </style>
 </head>
 <body>
@@ -118,48 +145,211 @@
         <a href="/src/guide.html" id="navGuide">Guide</a>
     </nav>
     <div class="news-container">
-        <a href="/newsLinks/Latest Agricultural News.html">
-            <div class="news-item">
-                <h2 id="news1Title">Latest Agricultural News</h2>
-                <p id="news1Content">Stay Updated on Agricultural Trends and Updates</p>
+        <div class="news-item">
+            <h2 id="news1Title">Latest Agricultural News</h2>
+            <p id="news1Content">Stay Updated on Agricultural Trends and Updates</p>
+            <div id="newsMoreContent" class="hidden-content">
+                <p><br>
+                    <strong>"Agriculture is a dynamic field, with new policies, technological advancements, and challenges emerging regularly. This section provides you with the most recent news affecting the farming community in Tamil Nadu, India, and globally."</strong>
+                    <br><br>
+                    National Agricultural News:
+                    <br>
+                    Budget Increase for Agriculture: The Indian government plans to raise the agriculture sector budget by approximately 15% to about $20 billion in the upcoming fiscal year. This marks the most significant increase in over six years, aiming to support rural incomes and control inflation. The focus will be on high-yield seed varieties, improved storage and supply infrastructure, and enhanced production of pulses, oilseeds, vegetables, and dairy. The initiative also seeks to boost farm exports to $80 billion by 2030. 
+                    REUTERS
+                    <br>
+                    Climate-Resilient Seeds Development: In response to climate change, Indian scientists are developing climate-resilient seed varieties that offer better yields with less water and enhanced disease resistance. The federal government and research institutes have released numerous resilient seed varieties, and Prime Minister Narendra Modi recently introduced 109 climate-resilient seeds for various crops. Ensuring farmers' access to these seeds and providing adequate training is crucial for sustaining agricultural productivity amidst climate challenges. 
+                    AP NEWS
+                    <br>
+                    Tamil Nadu-Specific News:
+                    <br>
+                    Organic Farming Policy Unveiled: The Tamil Nadu government has introduced an organic farming policy aimed at promoting chemical-free agriculture. This initiative focuses on conserving soil health, agro-ecology, and biodiversity, providing safe and healthy food for the population. The policy encourages mixed farming, integrated organic farming systems, and season-based cropping system diversification. 
+                    INDIANEXPRESS.COM
+                    <br>
+                    Farmer Welfare Measures: Over the past three years, the Tamil Nadu government has released ₹833.88 crore to support more than 11.95 lakh farmers affected by natural disasters. Additionally, compensation claims totaling ₹5,148 crore have been settled for 29.34 lakh farmers under crop insurance schemes. Subsidies amounting to ₹335 crore have been provided to enable farmers to purchase agricultural machinery and equipment. 
+                    THE HINDU
+                    <br>
+                    Global Agricultural Trends:
+                    <br>
+                    AI in Agriculture: Artificial Intelligence (AI) is playing a significant role in enhancing crop yields, managing water use more efficiently, and supporting sustainable farming practices. Technologies such as drones, sensors, and apps are being utilized for precision agriculture, contributing to a more efficient and productive farming process. 
+                    FT.COM
+                    <br>
+                    Land Conflicts Affecting Renewable Energy Projects: In western India, the construction of a 100-megawatt solar plant by Tata Power in Maharashtra's Nandgaon has faced significant resistance from local farmers. These disputes highlight the broader challenges of land acquisition faced by renewable energy projects in India, complicating efforts to rapidly expand green energy. 
+                    FT.COM
+                </p>
             </div>
-        </a>
-        <a href="/newsLinks/weather.html">
-            <div class="news-item">
-                <h2 id="news2Title">Weather Updates</h2>
-                <p id="news2Content">Plan Better with Real-Time Weather Reports</p>
+        </div>
+        <div class="news-item">
+            <h2 id="news2Title">Weather Updates</h2>
+            <p id="news2Content">Plan Better with Real-Time Weather Reports</p>
+            <div id="newsMoreContent" class="hidden-content">
+                <p><br><strong>
+                    Weather plays a critical role in farming. With accurate forecasts, you can plan your activities, reduce risks, and ensure optimal crop health. Our weather update section offers insights tailored to your region."
+                    </strong><br><br>
+                    Daily & Weekly Forecasts:
+                    <br>
+                    Current Conditions: As of January 26, 2025, in Coimbatore, India, the weather is mostly cloudy with a temperature of 84°F (29°C).
+                    <br>
+                    Upcoming Forecast:
+                    <br>
+                    Sunday, January 26: Clouds followed by a brightening sky, High: 92°F (33°C), Low: 65°F (18°C).
+                    <br>
+                    Monday, January 27: Nice with some sunshine, High: 88°F (31°C), Low: 66°F (19°C).
+                    <br>
+                    Tuesday, January 28: Mostly sunny and pleasant, High: 87°F (31°C), Low: 67°F (20°C).
+                    <br>
+                    Wednesday, January 29: Partly sunny and nice, High: 86°F (30°C), Low: 71°F (21°C).
+                    <br>
+                    Thursday, January 30: Partly sunny, High: 86°F (30°C), Low: 71°F (22°C).
+                    <br>
+                    Friday, January 31: Humid with clouds and sunshine; a couple of thunderstorms in the afternoon, High: 88°F (31°C), Low: 72°F (22°C).
+                    <br>
+                    Saturday, February 01: Partly sunny and humid, High: 87°F (31°C), Low: 71°F (21°C).
+                    <br>
+                    Extreme Weather Alerts:
+                    <br>
+                    Cyclone Michaung: Recently, Cyclone Michaung caused significant damage in certain regions. Farmers are advised to assess crop damage and report losses to local agricultural offices to avail relief assistance.
+                    <br>
+                    Heavy Rainfall in Southern Districts: Torrential rains have affected the southern districts. It's crucial to monitor local advisories and take necessary precautions to protect crops and livestock.
+                    <br>
+                    Seasonal Weather Trends:
+                    <br>
+                    Monsoon Patterns: The Northeast monsoon has been erratic, affecting sowing schedules. Farmers are encouraged to adopt flexible cropping strategies and consider short-duration crop varieties to mitigate potential losses.
+                    <br>
+                    Temperature Variations: Unseasonal temperature fluctuations have been observed, which may impact crop growth stages. Implementing micro-irrigation and mulching can help manage soil temperature and moisture levels.
+                </p>
             </div>
-        </a>
-        <a href="/newsLinks/mpu.html">
-            <div class="news-item">
-                <h2 id="news3Title"> Market Price Updates</h2>
-                <p id="news3Content">Stay Informed About Crop Market Trends</p>
+        </div>
+
+        <div class="news-item">
+            <h2 id="news3Title"> Market Price Updates</h2>
+            <p id="news3Content">Stay Informed About Crop Market Trends</p>
+            <div id="newsMoreContent" class="hidden-content">
+                <p><br>
+                    Latest Market Prices:<br>
+                    Rice (Paddy): ₹2,000 - ₹2,200 per quintal<br>
+                    Tomatoes: ₹40 - ₹60 per kg<br>
+                    Sugarcane: ₹350 per quintal<br>
+                    Highlights:<br>
+                    Export demand for onions has led to price surges.<br>
+                    Seasonal vegetables show stable pricing.<br>
+                </p>
             </div>
-        </a>
-        <a href="/newsLinks/Success Stories.html">
-            <div class="news-item">
-                <h2 id="news3Title">Success Stories</h2>
-                <p id="news3Content"> Learn from Farmers Who Made a Difference</p>
+        </div>
+
+        <div class="news-item">
+            <h2 id="news3Title">Success Stories</h2>
+            <p id="news3Content"> Learn from Farmers Who Made a Difference</p>
+            <div id="newsMoreContent" class="hidden-content">
+                <p><br>
+                    1. The Organic Revolution by Selvaraj, Tamil Nadu
+                    Selvaraj, a farmer from Madurai, turned his failing farm into a thriving organic venture. He began using natural compost and pest repellents like neem oil. Within three years, his soil quality improved, and his yields doubled. His organic produce is now sold at premium rates, earning him twice the income compared to chemical-based farming.
+                    Lesson: Embrace organic farming for long-term benefits and healthier produce.
+                    <br><br>
+                    2. Dr. Murugan’s Millets Mission
+                    Dr. Murugan from TNAU advocated for millet cultivation in drought-prone areas. A group of farmers followed his advice and switched to millet farming. The crops required less water and grew well even during erratic rains. The farmers not only secured their livelihoods but also introduced nutritious food to local markets.
+                    Lesson: Millets are a sustainable crop that ensures income even in tough climatic conditions.
+                    <br><br>
+                    3. Vandana Shiva’s Seed Saving Success
+                    Vandana Shiva promoted seed banks among rural women in Tamil Nadu. Women started saving traditional seed varieties, which were drought-resistant and required fewer inputs. The initiative not only preserved biodiversity but also reduced farmers' dependency on costly hybrid seeds.
+                    Lesson: Saving native seeds can build resilience against climate change.
+                    <br><br>
+                    4. A Young Farmer’s Tech Success
+                    Ajay, a 25-year-old farmer from Coimbatore, used AI-based apps to monitor soil health and weather patterns. By implementing precision farming techniques, he reduced fertilizer use by 30% and increased his crop yield by 40%. His innovative methods earned him recognition and a government subsidy for smart farming tools.
+                    Lesson: Technology in agriculture is a game-changer.
+                    <br><br>
+                    5. Rani’s Kitchen Garden Transformation
+                    Rani, a homemaker-turned-farmer from Tirunelveli, started a kitchen garden using organic waste from her home. She grew vegetables like tomatoes, spinach, and brinjal. Her small initiative inspired her community, leading to the creation of a collective organic vegetable market.
+                    Lesson: Small steps like kitchen gardening can create a big impact.
+                    <br><br>
+                    6. Selvam’s Fight Against Cyclone Damage
+                    After Cyclone Gaja, Selvam from Nagapattinam faced devastating crop losses. With guidance from local agricultural officers, he switched to short-duration crops like pulses. He recovered his losses within one season and now practices multi-cropping to minimize risks.
+                    Lesson: Adaptation and resilience are key to overcoming farming challenges.
+                    <br><br>
+                    7. Suganya’s Drip Irrigation Triumph
+                    Suganya from Theni faced water scarcity on her farm. She installed a drip irrigation system with government support, reducing water usage by 60%. This allowed her to grow high-value crops like capsicum and strawberries, earning her a steady income.
+                    Lesson: Smart water management can transform farming outcomes.
+                </p>
             </div>
-        </a>
-        <a href="/newsLinks/events.html">
-            <div class="news-item">
-                <h2 id="news3Title"> Events and Workshops</h2>
-                <p id="news3Content">Stay Connected with Farming Events Near You</p>
+        </div>
+
+        <div class="news-item">
+            <h2 id="news3Title"> Events and Workshops</h2>
+            <p id="news3Content">Stay Connected with Farming Events Near You</p>
+            <div id="newsMoreContent" class="hidden-content">
+                <p><br>
+                    Upcoming Events:<br>
+                    Organic Farming Workshop: January 30, 2025, at the Agricultural University, Coimbatore. Learn about sustainable practices, soil health, and organic pest management.<br>
+                    Agri-Tech Expo: February 5-7, 2025, at the Chennai Trade Center. Explore the latest agricultural technologies, machinery, and innovations.<br>
+                    Farmer's Market: Every Saturday at the Coimbatore Agricultural Market. Buy fresh produce directly from local farmers and support sustainable agriculture.<br>
+                    Workshop on Water Conservation: February 15, 2025, at the Erode Agricultural Research Institute. Discover efficient irrigation methods, rainwater harvesting, and water-saving techniques.<br>
+                    Dairy Farming Seminar: February 20, 2025, at the Madurai Dairy Development Center. Learn about dairy farm management, cattle health, and milk processing.<br>
+                </p>
             </div>
-        </a>
-        <a href="/newsLinks/Policy.html">
-            <div class="news-item">
-                <h2 id="news3Title"> Policy and Government Announcements</h2>
-                <p id="news3Content"> Stay Informed About Policies Affecting Farmers</p>
+        </div>
+
+        <div class="news-item">
+            <h2 id="news3Title"> Policy and Government Announcements</h2>
+            <p id="news3Content"> Stay Informed About Policies Affecting Farmers</p>
+            <div id="newsMoreContent" class="hidden-content">
+                <p><br>
+                    Latest Updates:<br>
+                    PM Kisan Samman Nidhi: Next installment for eligible farmers to be released soon.<br>
+                    Tamil Nadu Subsidies: ₹833 crore distributed to farmers for disaster relief over the last three years.<br>
+                    Actionable Insights:<br>
+                    Apply for organic certification subsidies.<br>
+                    Check crop insurance claim deadlines.<br>
+                </p>
             </div>
-        </a>
-        <a href="/newsLinks/Expert.html">
-            <div class="news-item">
-                <h2 id="news3Title">Expert Opinions and Advice</h2>
-                <p id="news3Content">Get Professional Insights to Improve Your Farm</p>
+        </div>
+
+
+        <div class="news-item">
+            <h2 id="news3Title">Expert Opinions and Advice</h2>
+            <p id="news3Content">Get Professional Insights to Improve Your Farm</p>
+            <div id="newsMoreContent" class="hidden-content">
+                <p><br>
+                    Dr. M.S. Swaminathan (Father of the Green Revolution in India)
+                    "Adopt sustainable farming practices that focus on enhancing soil health and water conservation. Technologies like crop rotation and integrated pest management can ensure long-term productivity."
+                    Advice: Switch to biofertilizers and reduce dependency on chemical inputs.
+                    <br><br>
+                    Dr. Rattan Lal (World Food Prize Winner)
+                    "Soil is the foundation of agriculture. Protect it by using cover crops, minimizing tillage, and maintaining organic matter."
+                    Advice: Practice no-till farming and composting to rejuvenate soil fertility.
+                    <br><br>
+                    Dr. Ajay Vir Jakhar (Chairman, Bharat Krishak Samaj)
+                    "Diversified cropping systems are the future. Growing multiple crops reduces risks and enhances income stability."
+                    Advice: Combine short-duration crops with high-value vegetables for better profits.
+                    <br><br>
+                    Dr. Baldev Singh Dhillon (Former Vice-Chancellor, PAU)
+                    "Invest in climate-smart agriculture, such as drought-resistant seeds and micro-irrigation techniques."
+                    Advice: Use drip irrigation and adopt water-efficient crops to combat erratic rainfall.
+                    <br><br>
+                    Dr. Anil Kumar Singh (IARI Scientist)
+                    "Precision farming using AI and IoT is the future. These tools can optimize resource use and boost yields."
+                    Advice: Embrace AI-powered apps and sensors to monitor soil moisture and crop health.
+                    <br><br>
+                    Vandana Shiva (Environmental Activist and Organic Farming Advocate)
+                    "Return to nature with organic farming methods that restore biodiversity and ensure chemical-free food."
+                    Advice: Use native seeds and natural pest repellents like neem oil for sustainable farming.
+                    <br><br>
+                    Dr. G.R. Chintala (Chairman, NABARD)
+                    "Leverage government schemes and subsidies to improve farm infrastructure and access modern technologies."
+                    Advice: Regularly check for subsidies on solar pumps, storage facilities, and machinery.
+                    <br><br>
+                    Dr. Murugan (Agronomy Expert, TNAU)
+                    "Climate-resilient farming is vital in Tamil Nadu. Adopt cropping patterns that align with local rainfall and temperature trends."
+                    Advice: Integrate millets and drought-tolerant varieties in your crop cycle.
+                    <br><br>
+                    Dr. Kishan Singh (ICAR Agronomist)
+                    "Post-harvest management is as important as cultivation. Proper storage can save up to 30% of produce from waste."
+                    Advice: Invest in modern storage facilities like cold chains and humidity-controlled units.
+                    <br><br>
+                    Dr. K.K. Singh (IMD Agriculture Scientist)
+                    "Stay informed about weather patterns to make better planting and harvesting decisions."
+                    Advice: Use real-time weather apps and advisories to plan your farming calendar effectively.
+                </p>
             </div>
-        </a>
+        </div>
     </div>
     <footer>
         <p id="footerText">&copy; 2025 MannMithra. All rights reserved.</p>

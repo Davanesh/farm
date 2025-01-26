@@ -27,7 +27,7 @@ const translations = {
     news3Title: "விவசாயி ரமேஷின் வெற்றிக்கதை",
     news3Content: "தமிழ்நாட்டைச் சேர்ந்த விவசாயி ரமேஷ் புதுமையான பாசன நுட்பங்களைப் பயன்படுத்தி தனது பயிர்த் தொகையை இரட்டிப்பாக வெற்றிகரமாக அதிகரித்துள்ளார். அவரது பயணத்தைப் பற்றி மேலும் அறியவும்.",
     footerText: "&copy; 2025 விவசாயிகளின் மையம். அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
-    buttonText: "Switch to Tamil"
+    buttonText: "Switch to English"
   }
 };
 
@@ -59,5 +59,3 @@ document.getElementById('languageToggle').addEventListener('click', () => {
     }
   });
 });
-
-
