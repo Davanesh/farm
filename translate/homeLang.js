@@ -1,5 +1,5 @@
 const enContent = {
-  title: "Welcome to Farmer's Hub",
+  title: "Welcome to MannMithra",
   homeLink: "Home",
   newsLink: "News",
   schemeLink: "Schemes",
@@ -7,17 +7,17 @@ const enContent = {
   welcomeTitle: "Empowering Tamil Nadu Farmers",
   welcomeDesc: "Welcome to a platform built exclusively for the hardworking farmers of Tamil Nadu. Our mission is to empower you with the tools, knowledge, and resources you need to succeed in agriculture.Here, you'll find daily updates on farming news,  and market prices to help you make informed decisions. Explore government schemes designed to benefit farmers and access step-by-step guides on modern farming techniques, crop care, and pest management.We believe in the strength of our farming community and are committed to supporting you every step of the way. Whether you're looking for advice, solutions, or simply the latest information, this portal is your one-stop destination to enhance your productivity and grow your income. Let’s work together to cultivate a brighter future for Tamil Nadu’s agriculture!" ,
   feature1Title: "Stay Updated",
-  feature1Desc: "Access the latest news and updates relevant to farmers in Tamil Nadu.",
+  feature1Desc: " Here’s what’s happening right now:",
   feature2Title: "Government Schemes",
   feature2Desc: "Learn about government initiatives and subsidies designed to benefit farmers.",
   feature3Title: "Farming Guides",
   feature3Desc: "Step-by-step guides to help you with planting, harvesting, and farm health management.",
-  footerText: "&copy; 2025 Farmer's Hub. Empowering Farmers, Building Futures.",
+  footerText: "&copy; 2025 MannMithra. Empowering Farmers, Building Futures.",
   buttonText: "ஆங்கிலத்திற்கு மாறவும்",
 };
 
 const taContent = {
-  title: "கவனத்தைத் திருப்புங்கள் - அரசாங்க திட்டங்கள்",
+  title: "மண் மித்ரா - அரசாங்க திட்டங்கள்",
   homeLink: "முகப்பு",
   newsLink: "செய்திகள்",
   schemeLink: "திட்டங்கள்",
@@ -30,7 +30,7 @@ const taContent = {
   feature2Desc: "விவசாயிகளுக்கு பயனளிக்கும் அரசு முயற்சிகள் மற்றும் சலுகைகள் பற்றி கற்றுக்கொள்ளவும்.",
   feature3Title: "விவசாய வழிகாட்டிகள்",
   feature3Desc: "விதை நடவு, அறுவடை மற்றும் பண்ணை ஆரோக்கிய மேலாண்மைக்கு வழிகாட்டி படி படி உதவிக்குறிப்புகள்.",
-  footerText: "&copy; 2025 கவனத்தைத் திருப்புங்கள். விவசாயிகளுக்கு சக்தி புகட்டுகிறது, எதிர்காலங்களை கட்டுகிறது.",
+  footerText: "&copy; 2025 மண் மித்ரா. விவசாயிகளுக்கு சக்தி புகட்டுகிறது, எதிர்காலங்களை கட்டுகிறது.",
   buttonText: "Switch to Tamil",
 };
 
