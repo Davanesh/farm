@@ -3,15 +3,40 @@
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Page Title</title>
+  <title>Success Stories</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
   <script src='main.js'></script>
 </head>
 <body>
   <div class="">
-    Organic Farming
-    <!-- add the Organic Farming content here -->
+    1. The Organic Revolution by Selvaraj, Tamil Nadu
+    Selvaraj, a farmer from Madurai, turned his failing farm into a thriving organic venture. He began using natural compost and pest repellents like neem oil. Within three years, his soil quality improved, and his yields doubled. His organic produce is now sold at premium rates, earning him twice the income compared to chemical-based farming.
+    Lesson: Embrace organic farming for long-term benefits and healthier produce.
+    
+    2. Dr. Murugan’s Millets Mission
+    Dr. Murugan from TNAU advocated for millet cultivation in drought-prone areas. A group of farmers followed his advice and switched to millet farming. The crops required less water and grew well even during erratic rains. The farmers not only secured their livelihoods but also introduced nutritious food to local markets.
+    Lesson: Millets are a sustainable crop that ensures income even in tough climatic conditions.
+    
+    3. Vandana Shiva’s Seed Saving Success
+    Vandana Shiva promoted seed banks among rural women in Tamil Nadu. Women started saving traditional seed varieties, which were drought-resistant and required fewer inputs. The initiative not only preserved biodiversity but also reduced farmers' dependency on costly hybrid seeds.
+    Lesson: Saving native seeds can build resilience against climate change.
+    
+    4. A Young Farmer’s Tech Success
+    Ajay, a 25-year-old farmer from Coimbatore, used AI-based apps to monitor soil health and weather patterns. By implementing precision farming techniques, he reduced fertilizer use by 30% and increased his crop yield by 40%. His innovative methods earned him recognition and a government subsidy for smart farming tools.
+    Lesson: Technology in agriculture is a game-changer.
+    
+    5. Rani’s Kitchen Garden Transformation
+    Rani, a homemaker-turned-farmer from Tirunelveli, started a kitchen garden using organic waste from her home. She grew vegetables like tomatoes, spinach, and brinjal. Her small initiative inspired her community, leading to the creation of a collective organic vegetable market.
+    Lesson: Small steps like kitchen gardening can create a big impact.
+    
+    6. Selvam’s Fight Against Cyclone Damage
+    After Cyclone Gaja, Selvam from Nagapattinam faced devastating crop losses. With guidance from local agricultural officers, he switched to short-duration crops like pulses. He recovered his losses within one season and now practices multi-cropping to minimize risks.
+    Lesson: Adaptation and resilience are key to overcoming farming challenges.
+    
+    7. Suganya’s Drip Irrigation Triumph
+    Suganya from Theni faced water scarcity on her farm. She installed a drip irrigation system with government support, reducing water usage by 60%. This allowed her to grow high-value crops like capsicum and strawberries, earning her a steady income.
+    Lesson: Smart water management can transform farming outcomes.
   </div>
 </body>
 </html>
