@@ -1,5 +1,5 @@
 const enContent = {
-  title: "Farmer's Hub - Farming Guide",
+  title: "MannMithra - Farming Guide",
   homeLink: "Home",
   newsLink: "News",
   schemeLink: "Schemes",
@@ -20,7 +20,7 @@ const enContent = {
   step7Desc: "Harvest crops at the right maturity stage. Use proper tools and techniques to minimize damage and loss during harvesting.",
   step8Title: "Step 8: Post-Harvest Management",
   step8Desc: "Store harvested produce in clean and dry conditions. Use appropriate packaging to maintain freshness and quality during transportation.",
-  footerText: "&copy; 2025 Farmer's Hub. All rights reserved.",
+  footerText: "&copy; 2025 MannMithra. All rights reserved.",
   buttonText: "ஆங்கிலத்திற்கு மாறவும்",
 };
 

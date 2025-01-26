@@ -1,6 +1,6 @@
 const translations = {
   en: {
-    title: "Farmer's Hub - News",
+    title: "MannMithra - News",
     navHome: "Home",
     navNews: "News",
     navSchemes: "Schemes",

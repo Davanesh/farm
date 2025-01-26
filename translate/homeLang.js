@@ -1,5 +1,5 @@
 const enContent = {
-  title: "Welcome to Farmer's Hub",
+  title: "Welcome to MannMithra",
   homeLink: "Home",
   newsLink: "News",
   schemeLink: "Schemes",
@@ -12,7 +12,7 @@ const enContent = {
   feature2Desc: "Learn about government initiatives and subsidies designed to benefit farmers.",
   feature3Title: "Farming Guides",
   feature3Desc: "Step-by-step guides to help you with planting, harvesting, and farm health management.",
-  footerText: "&copy; 2025 Farmer's Hub. Empowering Farmers, Building Futures.",
+  footerText: "&copy; 2025 MannMithra. Empowering Farmers, Building Futures.",
   buttonText: "ஆங்கிலத்திற்கு மாறவும்",
 };
 

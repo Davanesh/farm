@@ -1,5 +1,5 @@
 const enContent = {
-  title: "Farmer's Hub - Government Schemes",
+  title: "MannMithra - Government Schemes",
   homeLink: "Home",
   newsLink: "News",
   schemeLink: "Schemes",
@@ -12,7 +12,7 @@ const enContent = {
   scheme3Desc: "Pradhan Mantri Fasal Bima Yojana provides crop insurance against unforeseen events like natural calamities and pests.",
   scheme4Title: "Soil Health Card Scheme",
   scheme4Desc: "The scheme provides soil health cards to farmers, offering information on soil nutrient status and recommendations for better farming practices.",
-  footerText: "&copy; 2025 Farmer's Hub. All rights reserved.",
+  footerText: "&copy; 2025 MannMithra. All rights reserved.",
   buttonText: "ஆங்கிலத்திற்கு மாறவும்",
 };
 
