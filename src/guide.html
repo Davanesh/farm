@@ -92,6 +92,19 @@
         .guide{
             background-color: #43A047;
         }
+        #guideMoreContent {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out;
+        }
+        .guide-item:hover #guideMoreContent {
+            max-height: 500px;
+            transition: max-height 0.5s ease-in-out;
+        }
+        .hidden-content p {
+            text-indent: 70px;
+            font-size: 17px;
+        }
     </style>
 </head>
 <body>
@@ -109,33 +122,174 @@
         <div class="guide-item">
             <h2 id="step1Title">Planting Guides</h2>
             <p id="step1Desc">Learn the best practices for planting and growing various crops, tailored to Tamil Nadu’s climate and soil conditions.</p>
+            <div id="guideMoreContent" class="hidden-content">
+                <p><br>
+                    Planting is the first and most critical step in agriculture, and success depends on accurate methods and timing. This section ensures that farmers understand every aspect of planting for their crops, from soil preparation to nurturing seedlings.
+                    <br><br>
+                    1. Crop-Specific Tips:
+                    <br>
+                    Each crop requires unique care for optimal growth. For instance:
+                    Paddy: Needs waterlogged fields, proper spacing between seedlings, and specific planting times based on seasonal rainfall.
+                    Sugarcane: Requires deep plowing, furrow planting, and the use of seed sets with at least three buds for better sprouting.
+                    Turmeric: Prefers well-drained soil with rhizome planting and high organic matter.
+                    The guide provides actionable steps to achieve a high yield for each crop.
+                    <br><br>
+                    2.Seed Selection:
+                    <br>
+                    Emphasizes the importance of choosing certified, high-quality seeds that are resistant to diseases and pests.
+                    Tips include checking germination rates, ensuring proper storage conditions, and contacting reliable suppliers.
+                    <br><br>
+                    3.Soil Preparation:
+                    <br>
+                    Guides farmers on testing their soil for nutrients like nitrogen, phosphorus, and potassium.
+                    Includes techniques for adding organic manures, green manures, and micronutrient-rich fertilizers to enhance soil fertility.
+                    <br><br>
+                    4.Seasonal Planting Advice:
+                    <br>
+                    Tamil Nadu has distinct seasons, and each impacts farming differently. For example:
+                    During the Kharif season, farmers should prioritize rain-fed crops like paddy and millets.
+                    In the Rabi season, farmers can grow pulses and wheat with limited irrigation.
+                    The guide aligns planting schedules with these seasonal patterns for maximum productivity.
+                </p>
+            </div>
         </div>
-
         <div class="guide-item">
             <h2 id="step2Title">Modern Farming Techniques</h2>
             <p id="step2Desc">Boost your productivity with advanced and eco-friendly farming methods. Learn how to:</p>
+            <div id="guideMoreContent" class="hidden-content">
+                <p><br>
+                    Modern farming integrates advanced tools and techniques to boost efficiency, reduce costs, and ensure sustainable growth. This section introduces farmers to innovative practices.
+                    <br><br>
+                    1. Drip Irrigation:
+                    <br>
+                    A water-saving technique where water drips slowly to plant roots, either on the soil surface or directly into the root zone.
+                    The guide explains the setup process, cost, and how this method reduces water wastage and enhances nutrient absorption.
+                    <br><br>
+                    2.Organic Farming:
+                    <br>
+                    Focuses on natural farming techniques that eliminate chemical fertilizers and pesticides.
+                    Covers the preparation of biofertilizers, vermicompost, and pest repellents like neem oil.
+                    <br><br>
+                    3.Crop Rotation & Intercropping:
+                    <br>
+                    Educates farmers on growing different crops in succession (crop rotation) to prevent nutrient depletion.
+                    Highlights intercropping (e.g., planting legumes alongside cereals) to utilize land efficiently and suppress pests.
+                    <br><br>
+                    4.Precision Farming Tools:
+                    <br>
+                    Introduces technology like GPS-based farm mapping, drones for pest monitoring, and soil sensors for real-time data collection.
+                    Helps farmers optimize resource use and identify crop issues early.
+                </p>
+            </div>
         </div>
-
         <div class="guide-item">
             <h2 id="step3Title">Pest & Disease Management</h2>
             <p id="step3Desc">Identify and control common pests and diseases that affect your crops.</p>
+            <div id="guideMoreContent" class="hidden-content">
+                <p><br>
+                    Crop health is vital for a good harvest. This section helps farmers identify, prevent, and treat pests and diseases effectively.
+                    <br><br>
+                    1.Crop-Specific Issues:
+                    <br>
+                    Each crop is prone to specific diseases. For example:
+                    Paddy: Blast disease (fungal infection) and stem borer pests.
+                    Sugarcane: Red rot disease and top shoot borer.
+                    Provides identification techniques, such as recognizing discoloration, wilting, or pest trails.
+                    <br><br>
+                    2.Natural Remedies:
+                    <br>
+                    Guides on preparing eco-friendly solutions like neem oil sprays, chili-garlic extracts, and fermented cow urine for pest control.
+                    Promotes Integrated Pest Management (IPM), which combines natural and minimal chemical solutions.
+                    <br><br>
+                    3.Chemical Solutions:
+                    <br>
+                    Safe use of pesticides, including selecting the right product, mixing ratios, and application timing.
+                    Instructions on adhering to government-approved guidelines to avoid overuse or residue problems.
+                    <br><br>
+                    4.Prevention Tips:
+                    <br>
+                    Field sanitation, crop rotation, and using resistant seed varieties to reduce pest and disease occurrences.
+                </p>
+            </div>
         </div>
-
         <div class="guide-item">
             <h2 id="step4Title">Seasonal Farming Advice</h2>
             <p id="step4Desc">Get expert advice on how to prepare for each farming season in Tamil Nadu:</p>
+            <div id="guideMoreContent" class="hidden-content">
+                <p><br>
+                    Seasons play a crucial role in agriculture. Proper planning ensures farmers can grow the right crops and manage resources effectively.
+                    <br><br>
+                    1.Kharif Season (June to October):
+                    <br>
+                    Focus on rain-fed crops like paddy, maize, and millets.
+                    Tips on creating field bunds to retain rainwater and selecting short-duration crop varieties.
+                    <br><br>
+                    2.Rabi Season (November to April):
+                    <br>
+                    Prioritize cool-weather crops like wheat, barley, and chickpeas.
+                    Guides on frost protection methods and efficient irrigation using sprinklers.
+                    <br><br>
+                    3.Summer Season (May to June):
+                    <br>
+                    Heat-resistant crops like watermelon, cucumber, and groundnut thrive during this season.
+                    Techniques for reducing evaporation through mulching and proper irrigation scheduling.
+                </p>
+            </div>
         </div>
-
         <div class="guide-item">
             <h2 id="step5Title"> Animal Husbandry</h2>
             <p id="step5Desc">Healthy livestock means a prosperous farm. Explore guides on:</p>
+            <div id="guideMoreContent" class="hidden-content">
+                <p><br>
+                    Healthy livestock improves farm productivity and income. This section provides complete care guidelines for animals."
+                    <br><br>
+                    1.Cattle Care:
+                    <br>
+                    Tips for feeding cattle with balanced diets that include green fodder, dry fodder, and supplements.
+                    Vaccination schedules to protect against diseases like foot-and-mouth.
+                    <br><br>
+                    2.Poultry Farming:
+                    <br>
+                    Ideal housing conditions to protect poultry from extreme weather and predators.
+                    Egg production enhancement methods through proper feed and light exposure.
+                    <br><br>
+                    3.Goat & Sheep Rearing:
+                    <br>
+                    Breeding programs and nutrition plans to improve meat and milk production.
+                    Disease management and housing improvements for better yields.
+                    <br><br>
+                    4.Dairy Management:
+                    <br>
+                    Focus on milk hygiene, udder care, and proper milking practices to ensure high-quality production.
+                </p>
+            </div>
         </div>
-
         <div class="guide-item">
             <h2 id="step6Title">Sustainable Farming Practices</h2>
             <p id="step6Desc">Ensure long-term productivity and environmental health with these sustainable practices:</p>
+            <div id="guideMoreContent" class="hidden-content">
+                <p><br>
+                    Sustainability ensures long-term agricultural success while protecting the environment. This section promotes eco-friendly farming.
+                    <br><br>
+                    1.Biofertilizers & Organic Manures:
+                    <br>
+                    How to prepare compost, vermicompost, and biofertilizers like azolla for nitrogen enrichment.
+                    <br><br>
+                    2.Soil Conservation:
+                    <br>
+                    Techniques like contour plowing and cover cropping to prevent soil erosion.
+                    Importance of crop residue management for maintaining soil organic matter.
+                    <br><br>
+                    3.Agroforestry:
+                    <br>
+                    Combines tree planting with farming to diversify income and enhance soil health.
+                    <br><br>
+                    4.Renewable Energy Usage:
+                    <br>
+                    Setting up solar pumps and biogas plants to reduce dependency on traditional energy sources and save costs.
+                </p>
+            </div>
         </div>
-
     </div>
     <footer>
         <p id="footerText">&copy; 2025 MannMithra. All rights reserved.</p>
@@ -143,4 +297,3 @@
     <script src="/translate/guideLang.js"></script>
 </body>
 </html>
-

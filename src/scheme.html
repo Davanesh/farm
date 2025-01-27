@@ -103,6 +103,19 @@
         .scheme-container:hover{
             cursor: pointer;
         }
+        #schemeMoreContent {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out;
+        }
+        .scheme-item:hover #schemeMoreContent {
+            max-height: 500px;
+            transition: max-height 0.5s ease-in-out;
+        }
+        .hidden-content p {
+            text-indent: 70px;
+            font-size: 17px;
+        }
     </style>
 </head>
 <body>
@@ -117,36 +130,190 @@
         <a href="/src/guide.html" id="guideLink">Guide</a>
     </nav>
     <div class="scheme-container">
-        <a href="/schemeTitles/CGS.html">
-            <div class="scheme-item">
-                <h2 id="scheme1Title">Central Government Schemes</h2>
-                <p id="scheme1Desc">Discover National-Level Benefits for Farmers</p>
+        <div class="scheme-item">
+            <h2 id="scheme1Title">Central Government Schemes</h2>
+            <p id="scheme1Desc">Discover National-Level Benefits for Farmers</p>
+            <div id="schemeMoreContent" class="hidden-content">
+                <p><br>
+                    Rashtriya Krishi Vikas Yojana (RKVY):
+                    Aims to increase the productivity of Indian agriculture by funding innovations in farming and providing financial support for state-level initiatives.
+                    <br><br>
+                    Key Benefits: Assistance for crop diversification, organic farming, and setting up agro-industries.
+                    Unique Feature: Focuses on funding state-specific agricultural needs.
+                    National Mission for Sustainable Agriculture (NMSA):
+                    Focuses on making farming climate-resilient through water-efficient irrigation, soil health management, and agroforestry.
+                    <br><br>
+                    Key Benefits: Subsidies for micro-irrigation, soil testing, and planting trees on farmland.
+                    Unique Feature: Supports integrated farming systems combining crops, livestock, and fishery.
+                    Paramparagat Krishi Vikas Yojana (PKVY):
+                    Promotes organic farming practices and certification. It empowers farmers to form clusters and grow chemical-free produce.
+                    <br><br>
+                    Key Benefits: Financial assistance for organic farming and market linkage for organic products.
+                    Unique Feature: Cluster-based approach for community-level implementation.
+                    Kisan Urja Suraksha evam Utthaan Mahabhiyan (KUSUM):
+                    Encourages farmers to adopt solar power by providing subsidies for solar panels and pumps. Farmers can also sell surplus energy to the grid.
+                    <br><br>
+                    Key Benefits: Reduces irrigation costs and promotes renewable energy adoption.
+                    Unique Feature: Farmers earn additional income through energy production.
+                </p>
             </div>
-        </a>
-        <a href="/schemeTitles/TNS.html">
-            <div class="scheme-item">
-                <h2 id="scheme2Title">Tamil Nadu State Government Schemes</h2>
-                <p id="scheme2Desc">Localized Solutions for Tamil Nadu Farmers</p>
+        </div>
+
+
+        <div class="scheme-item">
+            <h2 id="scheme2Title">Tamil Nadu State Government Schemes</h2>
+            <p id="scheme2Desc">Localized Solutions for Tamil Nadu Farmers</p>
+            <div id="schemeMoreContent" class="hidden-content">
+                <p><br>
+                    Tamil Nadu Mission on Sustainable Dryland Agriculture (TNAIM-SDA):
+                    Designed for rainfed areas, this scheme focuses on increasing the productivity of dryland crops.
+                    <br><br>
+                    Key Benefits: Assistance for pulses, millets, and oilseed cultivation.
+                    Unique Feature: Promotes agroforestry and intercropping in water-scarce regions.
+                    Agro-Processing and Marketing Scheme:
+                    Encourages the establishment of small-scale agro-processing units for value addition to farm produce.
+                    <br><br>
+                    Key Benefits: Subsidies for setting up cold storage, packaging units, and processing plants.
+                    Unique Feature: Helps farmers earn more by reducing post-harvest losses and improving product quality.
+                    Nadum Mavatta Pasumai Kuzhandhaigal Project:
+                    A unique program aimed at creating green fodder banks for livestock farmers.
+                    <br><br>
+                    Key Benefits: Ensures year-round fodder availability for cattle and increases milk production.
+                    Unique Feature: Focuses on improving animal husbandry alongside crop farming.
+                    Special Livestock Protection Scheme:
+                    Offers free veterinary camps, vaccination drives, and medicines for livestock.
+                    <br><br>
+                    Key Benefits: Enhances livestock health and productivity.
+                    Unique Feature: Available even to small and marginal farmers with limited livestock.
+                    Farm Pond Scheme:
+                    Encourages farmers to construct farm ponds for rainwater harvesting.
+                    <br><br>    
+                    Key Benefits: Subsidies for pond construction and lining materials.
+                    Unique Feature: Focuses on water conservation in drought-prone areas.
+                </p>
             </div>
-        </a>
-        <a href="/schemeTitles/HTA.html">
-            <div class="scheme-item">
-                <h2 id="scheme3Title">How to Apply for Schemes</h2>
-                <p id="scheme3Desc">Step-by-Step Guide to Availing Benefits</p>
+        </div>
+
+        <div class="scheme-item">
+            <h2 id="scheme3Title">How to Apply for Schemes</h2>
+            <p id="scheme3Desc">Step-by-Step Guide to Availing Benefits</p>
+            <div id="schemeMoreContent" class="hidden-content">
+                <p><br>
+                    Check Your Eligibility:
+                    Visit your local agricultural office or check scheme guidelines online. Look for criteria based on land size, crops grown, or livestock ownership.
+                    <br><br>
+                    Prepare the Required Documents:
+                    <br><br>
+                    Aadhaar Card
+                    Land Ownership Papers or Lease Agreement
+                    Bank Passbook
+                    Recent Passport-Size Photo
+                    Apply Through These Methods:
+                    <br><br>
+                    Visit your District Agriculture Office.
+                    Submit online applications via portals like Direct Benefit Transfer (DBT) or state-specific websites.
+                    Attend agricultural fairs or camps where on-the-spot registrations are available.
+                    Track Your Application:
+                    Keep your application number handy and track progress through official websites or by visiting the office.
+                </p>
             </div>
-        </a>
-        <a href="/schemeTitles/FAQ.html">
-            <div class="scheme-item">
-                <h2 id="scheme4Title">Frequently Asked Questions (FAQs)</h2>
-                <p id="scheme4Desc">Answers to Common Queries About Farming Schemes</p>
+        </div>
+
+        <div class="scheme-item">
+            <h2 id="scheme4Title">Frequently Asked Questions (FAQs)</h2>
+            <p id="scheme4Desc">Answers to Common Queries About Farming Schemes</p>
+            <div id="schemeMoreContent" class="hidden-content">
+                <p><br>
+                    General FAQs About Farming Schemes
+                    Q: Are there schemes available for first-time farmers?
+                    A: Yes, schemes like the Kisan Credit Card (KCC) and Rashtriya Krishi Vikas Yojana (RKVY) provide support to new farmers, including subsidies for equipment, seeds, and fertilizers.
+                    
+                    Q: What is the process to apply for multiple schemes?
+                    A: Farmers can apply for multiple schemes as long as they meet the eligibility criteria. Applications for most schemes can be submitted through their respective portals or local agriculture offices.
+                    
+                    Q: How can farmers access subsidies for equipment like tractors or harvesters?
+                    A: Farmers can apply under the Agricultural Mechanization Scheme, which provides subsidies for equipment. Contact the local agricultural engineering department for details.
+                    
+                    Q: What are the schemes for water management in farming?
+                    A: Schemes like KUSUM (for solar water pumps) and the Farm Pond Scheme offer subsidies for water conservation and irrigation solutions.
+                    
+                    Q: Is there any scheme for disaster-affected farmers?
+                    A: Yes, the Pradhan Mantri Fasal Bima Yojana (PMFBY) provides insurance for crop loss due to disasters like floods, droughts, and pests. Farmers can claim compensation through this scheme.
+                    
+                    Q: Are there any loans or financial support schemes for dairy farmers?
+                    A: The Dairy Entrepreneurship Development Scheme (DEDS) provides loans and subsidies for setting up dairy units, including cattle purchase and infrastructure.
+                </p>
+                <p><br>
+                    FAQs Specific to Tamil Nadu
+                    Q: Does Tamil Nadu have schemes for promoting millets?
+                    A: Yes, the Tamil Nadu Millet Mission supports millet farming with subsidies on seeds, training programs, and processing facilities.
+
+                    Q: What are the benefits for livestock farmers in Tamil Nadu?
+                    A: The Special Livestock Protection Scheme provides free veterinary services, vaccinations, and medicines for livestock.
+
+                    Q: Are there schemes for fish farming in Tamil Nadu?
+                    A: Yes, the Blue Revolution Scheme offers financial assistance for setting up fish ponds, hatcheries, and fish feed production units.
+
+                    Q: Is there any assistance for organic farming in Tamil Nadu?
+                    A: The Organic Certification and Promotion Scheme offers incentives for transitioning to organic farming, including training and market support.
+                </p>
+                <p><br>
+                    Technical and Modern Farming FAQs
+                    Q: How can farmers adopt smart farming technologies?
+                    A: Farmers can avail subsidies under the National Mission on Agricultural Extension and Technology (NMAET) for tools like drones, soil sensors, and mobile-based farm management apps.
+
+                    Q: Are there schemes that help reduce fertilizer use?
+                    A: The Soil Health Card Scheme encourages balanced fertilizer use by providing farmers with detailed soil health reports and recommendations.
+
+                    Q: Is there any scheme for crop diversification?
+                    A: The Rashtriya Krishi Vikas Yojana (RKVY) supports crop diversification by offering financial assistance for switching to high-value or climate-resilient crops.
+
+                    Q: Are there schemes for post-harvest management?
+                    A: Yes, the Agro-Processing and Marketing Scheme provides subsidies for cold storage, packaging, and processing units to minimize post-harvest losses.
+                </p>
+                <p><br>
+                    Miscellaneous FAQs
+                    Q: Are tenant farmers eligible for government schemes?
+                    A: Yes, some schemes like PMFBY and KCC include tenant farmers. However, they may need a lease agreement or a certificate from the local authority to qualify.
+                    
+                    Q: How can women farmers benefit from schemes?
+                    A: Many schemes, like the Mahila Kisan Sashaktikaran Pariyojana (MKSP), focus on empowering women farmers through skill development, financial support, and self-help group formation.
+                    
+                    Q: Are there any schemes for tribal farmers?
+                    A: Yes, tribal farmers can benefit from schemes like the Vanbandhu Kalyan Yojana, which provides support for agriculture, livestock, and minor forest produce.
+                    
+                    Q: Can farmers get assistance for organic certification?
+                    A: Yes, the Paramparagat Krishi Vikas Yojana (PKVY) offers financial support for organic certification and marketing of organic products.
+                    
+                    Q: What support is available for horticulture farmers?
+                    A: The Mission for Integrated Development of Horticulture (MIDH) provides subsidies for planting materials, irrigation systems, and post-harvest management of fruits, vegetables, and spices.
+                    
+                    Q: Are there government programs for promoting agroforestry?
+                    A: The Sub-Mission on Agroforestry (SMAF) encourages farmers to grow trees on farmland by offering financial assistance and training.
+                </p>
             </div>
-        </a>
-        <a href="/schemeTitles/helpline.html">
-            <div class="scheme-item">
-                <h2 id="scheme4Title">Resources and Helplines</h2>
-                <p id="scheme4Desc">Connect with Support Networks</p>
+        </div>
+
+        <div class="scheme-item">
+            <h2 id="scheme4Title">Resources and Helplines</h2>
+            <p id="scheme4Desc">Connect with Support Networks</p>
+            <div id="schemeMoreContent" class="hidden-content">
+                <p><br>
+                    Connect with Support Networks
+                    <br><br>
+                    Toll-Free Helpline Numbers:
+                    <br><br>
+                    PM-KISAN: 1800-180-1551
+                    Tamil Nadu Agriculture Helpline: 1551
+                    <br><br>
+                    Useful Links:
+                    <br><br>
+                    PM-KISAN Official Website
+                    Tamil Nadu Agriculture Department
+                </p>
             </div>
-        </a>
+        </div>
+
     </div>
     <footer>
         <p id="footerText">&copy; 2025 MannMithra. All rights reserved.</p>

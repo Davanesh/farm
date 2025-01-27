@@ -75,5 +75,3 @@ document.getElementById('languageToggle').addEventListener('click', () => {
     }
   });
 });
-
-
