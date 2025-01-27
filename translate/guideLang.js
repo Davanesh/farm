@@ -17,7 +17,7 @@ const enContent = {
   step6Title: "Sustainable Farming Practices",
   step6Desc: "Ensure long-term productivity and environmental health with these sustainable practices:",
   footerText: "&copy; 2025 MannMithra. All rights reserved.",
-  buttonText: "ஆங்கிலத்திற்கு மாறவும்",
+  buttonText: "தமிழுக்கு மாறு",
 };
 
 const taContent = {
@@ -39,7 +39,7 @@ const taContent = {
   step6Title: "நிலையான விவசாய நடைமுறைகள்",
   step6Desc: "இந்த நிலையான நடைமுறைகளுடன் நீண்ட கால உற்பத்தித்திறன் மற்றும் சுற்றுச்சூழல் ஆரோக்கியத்தை உறுதிப்படுத்தவும்:",
   footerText: "&copy; 2025 மண் மித்ரா. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
-  buttonText: "Switch to Tamil",
+  buttonText: "Switch to English",
 };
 
 function switchLanguage() {
@@ -67,10 +67,6 @@ function switchLanguage() {
   document.getElementById("step5Desc").innerText = content.step5Desc;
   document.getElementById("step6Title").innerText = content.step6Title;
   document.getElementById("step6Desc").innerText = content.step6Desc;
-  document.getElementById("step7Title").innerText = content.step7Title;
-  document.getElementById("step7Desc").innerText = content.step7Desc;
-  document.getElementById("step8Title").innerText = content.step8Title;
-  document.getElementById("step8Desc").innerText = content.step8Desc;
   document.getElementById("footerText").innerHTML = content.footerText;
   document.getElementById("languageToggle").innerText = content.buttonText;
 }

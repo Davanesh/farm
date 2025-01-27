@@ -20,7 +20,7 @@ const translations = {
       news7Title: " Expert Opinions and Advice",
       news7Content: "Get Professional Insights to Improve Your Farm",
       footerText: "&copy; 2025 Mannmithra. All rights reserved.",
-      buttonText: "ஆங்கிலத்திற்கு மாறவும்"
+      buttonText: "தமிழுக்கு மாறு"
   },
   ta: {
     title: "மண் மித்ரா - செய்திகள்",
@@ -43,7 +43,7 @@ const translations = {
     news7Title: " நிபுணர் கருத்துக்கள் மற்றும் ஆலோசனை",
     news7Content: "உங்கள் பண்ணையை மேம்படுத்த தொழில்முறை நுண்ணறிவுகளைப் பெறுங்கள்",
     footerText: "&copy; 2025 மண் மித்ரா. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
-    buttonText: "Switch to Tamil"
+    buttonText: "Switch to English"
   }
 };
 
@@ -61,6 +61,14 @@ const elements = {
   news2Content: document.getElementById('news2Content'),
   news3Title: document.getElementById('news3Title'),
   news3Content: document.getElementById('news3Content'),
+  news4Title: document.getElementById('news4Title'),
+  news4Content: document.getElementById('news4Content'),
+  news5Title: document.getElementById('news5Title'),
+  news5Content: document.getElementById('news5Content'),
+  news6Title: document.getElementById('news6Title'),
+  news6Content: document.getElementById('news6Content'),
+  news7Title: document.getElementById('news7Title'),
+  news7Content: document.getElementById('news7Content'),
   footerText: document.getElementById('footerText'),
   button: document.getElementById('languageToggle')
 };

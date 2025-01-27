@@ -15,7 +15,7 @@ const enContent = {
   scheme5Title: "Resources and Helplines",
   scheme5Desc: "Connect with Support Networks",
   footerText: "&copy; 2025 MannMithra. All rights reserved.",
-  buttonText: "ஆங்கிலத்திற்கு மாறவும்",
+  buttonText: "தமிழுக்கு மாறு",
 };
 
 const taContent = {
@@ -35,7 +35,7 @@ const taContent = {
   scheme5Title: "ஆதாரங்கள் மற்றும் ஹெல்ப்லைன்கள்",
   scheme5Desc: "ஆதரவு நெட்வொர்க்குகளுடன் இணைக்கவும்",
   footerText: "&copy; 2025 மண் மித்ரா. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
-  buttonText: "Switch to Tamil",
+  buttonText: "Switch to English",
 };
 
 function switchLanguage() {
@@ -59,6 +59,8 @@ function switchLanguage() {
   document.getElementById("scheme3Desc").innerText = content.scheme3Desc;
   document.getElementById("scheme4Title").innerText = content.scheme4Title;
   document.getElementById("scheme4Desc").innerText = content.scheme4Desc;
+  document.getElementById("scheme5Title").innerText = content.scheme5Title;
+  document.getElementById("scheme5Desc").innerText = content.scheme5Desc;
   document.getElementById("footerText").innerHTML = content.footerText;
   document.getElementById("languageToggle").innerText = content.buttonText;
 }

@@ -13,7 +13,7 @@ const enContent = {
   feature3Title: "Farming Guides",
   feature3Desc: "Step-by-step guides to help you with planting, harvesting, and farm health management.",
   footerText: "&copy; 2025 MannMithra. Empowering Farmers, Building Futures.",
-  buttonText: "ஆங்கிலத்திற்கு மாறவும்",
+  buttonText: "தமிழுக்கு மாறு",
 };
 
 const taContent = {
@@ -31,7 +31,7 @@ const taContent = {
   feature3Title: "விவசாய வழிகாட்டிகள்",
   feature3Desc: "விதை நடவு, அறுவடை மற்றும் பண்ணை ஆரோக்கிய மேலாண்மைக்கு வழிகாட்டி படி படி உதவிக்குறிப்புகள்.",
   footerText: "&copy; 2025 மண் மித்ரா. விவசாயிகளுக்கு சக்தி புகட்டுகிறது, எதிர்காலங்களை கட்டுகிறது.",
-  buttonText: "Switch to Tamil",
+  buttonText: "Switch to English",
 };
 
 function switchLanguage() {
