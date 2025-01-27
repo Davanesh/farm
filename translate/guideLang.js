@@ -39,7 +39,7 @@ const taContent = {
   step6Title: "நிலையான விவசாய நடைமுறைகள்",
   step6Desc: "இந்த நிலையான நடைமுறைகளுடன் நீண்ட கால உற்பத்தித்திறன் மற்றும் சுற்றுச்சூழல் ஆரோக்கியத்தை உறுதிப்படுத்தவும்:",
   footerText: "&copy; 2025 மண் மித்ரா. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
-  buttonText: "Switch to English",
+  buttonText: "Switch to Tamil",
 };
 
 function switchLanguage() {

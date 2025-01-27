@@ -35,7 +35,7 @@ const taContent = {
   scheme5Title: "ஆதாரங்கள் மற்றும் ஹெல்ப்லைன்கள்",
   scheme5Desc: "ஆதரவு நெட்வொர்க்குகளுடன் இணைக்கவும்",
   footerText: "&copy; 2025 மண் மித்ரா. அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை.",
-  buttonText: "Switch to English",
+  buttonText: "Switch to Tamil",
 };
 
 function switchLanguage() {
